@@ -197,7 +197,6 @@ ENDHTML;
 
 $total = $media/$cont;
 
-//for para imprimir tantas estrellas como tenga en el total de la media   
 echo 'Average rating: ';
 for ($i = 1; $i <= $total; $i++) {
     echo '<img  src="star.png"/>';  
